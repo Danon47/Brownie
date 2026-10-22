@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brownie — салон красоты</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"><style>
+:root{--bg:#FAF5F0;--surface:#FFFFFF;--ink:#35201A;--muted:#6F5A52;--line:#EADFD6;--acc:#A8672F;--onacc:#fff;--hbg:#4A2C23;--hink:#FBF1E8;--tint:#F3E4D6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A1210;--surface:#26191A;--ink:#F4E9E0;--muted:#C4AE9F;--line:#3B2A26;--acc:#E0A066;--onacc:#2A1608;--hbg:#33201B;--hink:#FBF1E8;--tint:#3A2823}}
+:root[data-theme="dark"]{--bg:#1A1210;--surface:#26191A;--ink:#F4E9E0;--muted:#C4AE9F;--line:#3B2A26;--acc:#E0A066;--onacc:#2A1608;--hbg:#33201B;--hink:#FBF1E8;--tint:#3A2823}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Nunito,system-ui,sans-serif}
+h1,h2,h3{font-family:Playfair Display,Nunito,serif;font-weight:700;line-height:1.15;margin:0}
+a{color:inherit}:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:6px}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}section{padding:44px 0}
+h2{font-size:clamp(25px,5vw,34px);margin-bottom:20px}
+.hero{background:var(--hbg);color:var(--hink);padding:44px 0 56px}
+.hero .nm{font-family:Playfair Display,serif;font-weight:700;font-size:20px;margin-bottom:36px;opacity:.9}
+.hero h1{font-size:clamp(32px,8vw,56px);max-width:15em}
+.hero p{max-width:34em;font-size:19px;margin:16px 0 26px;opacity:.88}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;min-height:50px;padding:0 24px;border-radius:20px;font-weight:700;text-decoration:none;border:2px solid currentColor}
+.btn.main{background:var(--acc);border-color:var(--acc);color:var(--onacc)}
+.facts{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:15px;opacity:.9}
+.rows{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:6px 22px}
+.rows div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.rows div:first-child{border-top:0}.rows b{white-space:nowrap;color:var(--acc);font-family:Playfair Display,serif;font-weight:700}
+.rows small{display:block;color:var(--muted);font-size:14px;line-height:1.4}
+.chips{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.chips li{background:var(--tint);padding:8px 16px;border-radius:999px;font-weight:600;font-size:16px}
+.ph{border:2px dashed var(--line);border-radius:20px;padding:22px;color:var(--muted)}
+.quote{background:var(--tint);border-radius:20px;padding:26px;max-width:620px}
+.quote p{font-size:21px;font-weight:600;margin:0 0 6px}.quote span{color:var(--muted);font-size:15px}
+.contact{background:var(--hbg);color:var(--hink);border-radius:20px;padding:30px 24px}
+.contact h2{margin-bottom:12px}.contact p{margin:4px 0}.contact .btns{margin:18px 0}
+footer{padding:24px 0 40px;color:var(--muted);font-size:14px}
+</style></head><body>
+<header class="hero"><div class="wrap"><div class="nm">Brownie</div><h1>Салон красоты рядом: ногти, волосы, брови и уход</h1><p>Уютно, чисто, с чаем или кофе. Можно записаться на вечер после работы, а перед визитом мы позвоним и напомним.</p><div class="btns"><a class="btn main" href="tel:+74993978078">Записаться по телефону</a></div><div class="facts"><span>Ген. Белова, 29</span><span>★ 4,8 · 87 оценок</span><span>Ежедневно 10:00-21:00</span></div></div></header><main><section style="padding-top:0"><div class="wrap"><h2>Услуги</h2><ul class="chips"><li>Маникюр</li><li>Педикюр</li><li>Наращивание ногтей</li><li>Френч</li><li>Окрашивание</li><li>Стрижка</li><li>Брови</li></ul></div></section><section style="padding-top:0"><div class="wrap"><h2>Что нравится гостям</h2><ul class="chips"><li>Чистота и стерильные инструменты</li><li>Чай и кофе</li><li>Напоминание о записи</li><li>Запись на вечер</li></ul></div></section><section style="padding-top:0"><div class="wrap"><h2>Прайс и работы</h2><div class="ph">Сюда добавим ваш прайс и фото работ. Сейчас в карточке на картах цен нет, и клиенты не понимают, сколько это стоит.</div></div></section><section style="padding-top:0"><div class="wrap"><div class="contact"><h2>Ждём вас в салоне</h2><p>Москва, улица Генерала Белова, 29, 1 этаж</p><p>Работаем ежедневно с 10:00 до 21:00.</p><div class="btns"><a class="btn main" href="tel:+74993978078">Позвонить</a></div><p>Телефон: <a href="tel:+74993978078">+7 (499) 397-80-78</a></p></div></div></section></main>
+<footer><div class="wrap">Brownie. Макет сайта.</div></footer></body></html>
